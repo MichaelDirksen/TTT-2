@@ -1,0 +1,163 @@
+"terrortown"
+{
+	"base"		"base"
+	"title"		"Trouble in Gamer Town"
+	"maps"		"^ttt_"
+	"menusystem"	"1"
+	
+	"settings"
+	{
+		1
+		{
+			"name"		"ttt_debug_preventwin"
+			"text"		"Prevent Winning"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		
+		2
+		{
+			"name"		"ttt_time_limit_minutes"
+			"text"		"Map Time Limit"
+			"type"		"Numeric"
+			"default"	"120"
+		}
+		
+		3
+		{
+			"name"		"ttt_firstpreptime"
+			"text"		"Initial Waiting Time"
+			"type"		"Numeric"
+			"default"	"20"
+		}
+		
+		4
+		{
+			"name"		"ttt_preptime_seconds"
+			"text"		"Preparing Time"
+			"type"		"Numeric"
+			"default"	"20"
+		}
+		
+		5
+		{
+			"name"		"ttt_posttime_seconds"
+			"text"		"Postround Time"
+			"type"		"Numeric"
+			"default"	"5"
+		}
+		
+		6
+		{
+			"name"		"ttt_round_limit"
+			"text"		"Round Limit"
+			"type"		"Numeric"
+			"default"	"99"
+		}
+		
+		7
+		{
+			"name"		"ttt_postround_dm"
+			"text"		"Postround Deathmatch"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		8
+		{
+			"name"		"ttt_traitor_pct"
+			"text"		"Traitor Ratio"
+			"type"		"Numeric"
+			"default"	"0.25"
+		}
+		
+		9
+		{
+			"name"		"ttt_credits_starting"
+			"text"		"Traitor Credits"
+			"type"		"Numeric"
+			"default"	"2"
+		}
+			
+		10
+		{
+			"name"		"ttt_detective_pct"
+			"text"		"Detective Ratio"
+			"type"		"Numeric"
+			"default"	"0.125"
+		}
+		
+		11
+		{
+			"name"		"ttt_det_credits_starting"
+			"text"		"Detective Credits"
+			"type"		"Numeric"
+			"default"	"1"
+		}
+		
+		12
+		{
+			"name"		"ttt_detective_min_players"
+			"text"		"Min Detective Playercount"
+			"type"		"Numeric"
+			"default"	"8"
+		}
+				
+		14
+		{
+			"name"		"ttt_detective_hats"
+			"text"		"Detective Hats"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		15
+		{
+			"name"		"ttt_allow_discomb_jump"
+			"text"		"Discombob Jumping"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		
+		16
+		{
+			"name"		"ttt_no_nade_throw_during_prep"
+			"text"		"Preround Grenade Throwing"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		
+		17
+		{
+			"name"		"ttt_teleport_telefrags"
+			"text"		"Teleporter Fragging"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		18
+		{
+			"name"		"ttt_ragdoll_pinning"
+			"text"		"Ragdoll Pinning"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		19
+		{
+			"name"		"ttt_ragdoll_pinning_innocents"
+			"text"		"Innocent Pinning"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		20
+		{
+			"name"		"ttt_namechange_kick"
+			"text"		"Kick for Changing Name"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+				
+	}
+}
